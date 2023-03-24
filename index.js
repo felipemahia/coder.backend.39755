@@ -7,10 +7,10 @@ class ProductManager {
         this.#nextId = 1;
     }
 
-    
+
     //Agrego nuevo producto y establezco obligatoriedad en todos los campos
-    addProduct(title, description, price, thumbnail, code, stock) {
-        if (!title || !description || !price || !thumbnail || !code || !stock) {
+    addProduct(category, title, description, price, thumbnail, code, stock) {
+        if (!category || !title || !description || !price || !thumbnail || !code || !stock) {
             console.error("Todos los campos son obligatorios");
             return;
         }
@@ -23,6 +23,7 @@ class ProductManager {
         //Creo constante para crear el objeto
         const product = {
             id: this.#nextId++,
+            category,
             title,
             description,
             price,
@@ -56,16 +57,17 @@ class ProductManager {
 
 const productManager = new ProductManager()
 
-productManager.addProduct('Atomizador', 'Sin Zapatillas', 20000, './images/zapatilla.png', 20) //Le falta un dato, tira error
-productManager.addProduct('Atomizador', 'Zapatilla Vacia', 20000, './images/zapatilla.png', '', 20) //No carga porque tiene un valor vacío
-productManager.addProduct('Atomizador', 'Zapatillas Negras', 20000, './images/zapatilla-negra.png', 'AC', 20) //Se Carga
-productManager.addProduct('Atomizador', 'Zapatillas Blancas', 26000, './images/zapatilla-blanca.png', 'AD', 12) //Se Carga
-productManager.addProduct('Atomizador', 'Zapatillas Verdes', 25600, './images/zapatilla-verde.png', 'AE', 22) //Se Carga
-productManager.addProduct('Atomizador', 'Zapatillas (Código Repetido)', 26000, './images/zapatilla.png', 'AF', 35) //No se carga porque tiene el "code" Repetido (ERROR)
+productManager.addProduct('Atomizador', 'SMOK', 'NORD4', 2000, './images/atomizador1.png', 20) //Le falta un dato, tira error
+productManager.addProduct('Atomizador', 'SMOK', 'VAPEPEN22', 2500, './images/atomizador2.png', '', 20) //No carga porque tiene un valor vacío
+productManager.addProduct('Atomizador', 'SMOK', 'STICKPRINCE', 2100, './images/atomizador3.png', 'AC', 20) //Se Carga
+productManager.addProduct('Atomizador', 'VAPORESSO', 'SKYSOLO', 3000, './images/atomizador4.png', 'AD', 12) //Se Carga
+productManager.addProduct('Atomizador', 'JOYTECH', 'EXCEED', 1600, './images/atomizador5.png', 'AE', 22) //Se Carga
+productManager.addProduct('Atomizador', 'VAPORESSO', 'POD', 1600, './images/atomizador6.png', 'AE', 35) //No se carga porque tiene el "code" repetido
 
 console.log(productManager.getProducts())
 
-/* try {
+/* // Pruebas {
+ try {
     const product = productManager.getProductById(1); //El Id Existe.!
     console.log(product);
 }
@@ -94,4 +96,6 @@ try {
 }
 catch (error) {
     console.error(error.message);
-} */
+} 
+}
+*/
