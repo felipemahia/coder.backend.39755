@@ -1,0 +1,20 @@
+{
+  "name": "backend-felipemahia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipemahia/coder.backend.39755.git"
+  },
+  "author": "Felipe Mahía",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipemahia/coder.backend.39755/issues"
+  },
+  "homepage": "https://github.com/felipemahia/coder.backend.39755#readme",
+  "description": ""
+}

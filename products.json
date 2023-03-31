@@ -1,0 +1,342 @@
+[
+    {
+        "id": 1,
+        "title": "SMOK CAMBIADO",
+        "model": "NORD4",
+        "precio": 1100,
+        "category": "PRINCIPIANTES",
+        "thumbnail": "./imagenes/1 Principiantes/Nord Pod/1.jpg",
+        "stock": 5,
+        "code": 1001,
+        "description": "Estilo POD, lo más sencillo pero eficiente"
+    },
+    {
+        "id": 3,
+        "title": "SMOK",
+        "model": "STICKPRINCE",
+        "precio": 2000,
+        "category": "PRINCIPIANTES",
+        "thumbnail": "./imagenes/1 Principiantes/Smok Stick Prince/1.jpg",
+        "stock": 5,
+        "code": 1003,
+        "description": "Kit de inicio... a lo grande"
+    },
+    {
+        "id": 4,
+        "title": "VAPORESSO",
+        "model": "SKYSOLO",
+        "precio": 2000,
+        "category": "PRINCIPIANTES",
+        "thumbnail": "./imagenes/1 Principiantes/Sky Solo/1.jpg",
+        "stock": 2,
+        "code": 1004,
+        "description": "Cabe en el bolsillo pero el límite es el cielo."
+    },
+    {
+        "id": 5,
+        "title": "JOYTECH",
+        "model": "EXCEED",
+        "precio": 1800,
+        "category": "PRINCIPIANTES",
+        "thumbnail": "./imagenes/1 Principiantes/Joyctech exceed grip/1.jpg",
+        "stock": 12,
+        "code": 1005,
+        "description": "Simple pero poderoso"
+    },
+    {
+        "id": 6,
+        "title": "VAPORESSO",
+        "model": "POD",
+        "precio": 1100,
+        "category": "PRINCIPIANTES",
+        "thumbnail": "./imagenes/1 Principiantes/Vaporesso Pod/1.jpg",
+        "stock": 4,
+        "code": 1006,
+        "description": "Estilo POD, el pequeño primer paso"
+    },
+    {
+        "id": 7,
+        "title": "VOOPOO",
+        "model": "DRAGXPLUS",
+        "precio": 2200,
+        "category": "AVANZADOS",
+        "thumbnail": "./imagenes/2 Avanzados/Kit voopoo drag 3/1.jpg",
+        "stock": 20,
+        "code": 1007,
+        "description": "Drag en formato kit... Nada puede salir mal"
+    },
+    {
+        "id": 8,
+        "title": "GEEKVAPE",
+        "model": "AEGISMAX",
+        "precio": 2500,
+        "category": "AVANZADOS",
+        "thumbnail": "./imagenes/2 Avanzados/Kit Aegis Max/1.jpg",
+        "stock": 12,
+        "code": 1008,
+        "description": "Un todo terreno con un tanque poderoso"
+    },
+    {
+        "id": 9,
+        "title": "GEEKVAPE",
+        "model": "BOOSTPRO",
+        "precio": 2100,
+        "category": "AVANZADOS",
+        "thumbnail": "./imagenes/2 Avanzados/Aegis Boost+/1.jpg",
+        "stock": 5,
+        "code": 1009,
+        "description": "Sencillamente revolucionario y potente"
+    },
+    {
+        "id": 10,
+        "title": "VAPORESSO",
+        "model": "GENS",
+        "precio": 2800,
+        "category": "AVANZADOS",
+        "thumbnail": "./imagenes/2 Avanzados/Vaporesso Gen S/1.jpg",
+        "stock": 3,
+        "code": 1010,
+        "description": "El mejor chip del mercado y la mejor estética"
+    },
+    {
+        "id": 11,
+        "title": "EHPRO",
+        "model": "ARMOR",
+        "precio": 2500,
+        "category": "PRO",
+        "thumbnail": "./imagenes/3 Pro/Equipo pro 1.jpg",
+        "stock": 3,
+        "code": 1011,
+        "description": "Semi mecánico... Poderoso y seguro"
+    },
+    {
+        "id": 12,
+        "title": "GEEKVAPE",
+        "model": "DRAG3",
+        "precio": 3000,
+        "category": "PRO",
+        "thumbnail": "./imagenes/3 Pro/Equipo pro 2.jpg",
+        "stock": 16,
+        "code": 1012,
+        "description": "Calidad, estética y potencia, todo en uno"
+    },
+    {
+        "id": 13,
+        "title": "VAPORESSO",
+        "model": "LUXE",
+        "precio": 3000,
+        "category": "PRO",
+        "thumbnail": "./imagenes/3 Pro/Equipo pro 3.jpg",
+        "stock": 8,
+        "code": 1013,
+        "description": "Nuestro único mod de pantalla táctil"
+    },
+    {
+        "id": 14,
+        "title": "DESIRE",
+        "model": "CUT",
+        "precio": 2800,
+        "category": "PRO",
+        "thumbnail": "./imagenes/3 Pro/Equipo pro 4.jpg",
+        "stock": 8,
+        "code": 1014,
+        "description": "Mod potente y portátil"
+    },
+    {
+        "id": 15,
+        "title": "AUGVAPE",
+        "model": "VX217",
+        "precio": 2800,
+        "category": "PRO",
+        "thumbnail": "./imagenes/3 Pro/Equipo pro 5.jpg",
+        "stock": 7,
+        "code": 1015,
+        "description": "Mod compatible con baterias 21700, 20700 y 18650"
+    },
+    {
+        "id": 16,
+        "title": "HELLVAPE",
+        "model": "AREZ",
+        "precio": 2800,
+        "category": "PRO",
+        "thumbnail": "./imagenes/3 Pro/Equipo pro 6.jpg",
+        "stock": 10,
+        "code": 1016,
+        "description": "Mod de baja potencia pero de una bateria"
+    },
+    {
+        "id": 17,
+        "title": "KING CREST",
+        "model": "DON JUAN",
+        "precio": 1200,
+        "thumbnail": "./imagenes/Eliquids/King Crest/king crest 1.jpg",
+        "stock": 50,
+        "code": 1017,
+        "description": "La versión reserva del popular sabor Don Juan"
+    },
+    {
+        "id": 18,
+        "title": "KING CREST",
+        "model": "ALIEN POP",
+        "precio": 1200,
+        "thumbnail": "./imagenes/Eliquids/King Crest/alien pop.webp",
+        "stock": 51,
+        "code": 1018,
+        "description": "Chupetín de frutilla que pareciera ser de otro mundo"
+    },
+    {
+        "id": 19,
+        "title": "KING CREST",
+        "model": "PLANET POP",
+        "precio": 1200,
+        "thumbnail": "./imagenes/Eliquids/King Crest/planet pops blue.jpg",
+        "stock": 40,
+        "code": 1019,
+        "description": "Sabor a caramelo de frutos rojos y arándanos"
+    },
+    {
+        "id": 20,
+        "title": "ICE MONSTER",
+        "model": "MIXED BERRY ICE",
+        "precio": 1500,
+        "thumbnail": "./imagenes/Eliquids/Ice Monster/ice monster 1.png",
+        "stock": 40,
+        "code": 1020,
+        "description": "Sabrosos frutos rojos congelados"
+    },
+    {
+        "id": 21,
+        "title": "ICE MONSTER",
+        "model": "MANDARINA Y GUAYAVA",
+        "precio": 1500,
+        "thumbnail": "./imagenes/Eliquids/Ice Monster/ice monster 2.png",
+        "stock": 120,
+        "code": 1021,
+        "description": "Combinación de mandarina y guayaba refrescante"
+    },
+    {
+        "id": 22,
+        "title": "ICE MONSTER",
+        "model": "MELON COLADA",
+        "precio": 1500,
+        "thumbnail": "./imagenes/Eliquids/Ice Monster/ice monster 3.jpg",
+        "stock": 122,
+        "code": 1022,
+        "description": "Sabor a melón, con frutas tropicales y un golpe fresco"
+    },
+    {
+        "id": 23,
+        "title": "ICE MONSTER",
+        "model": "STRAWMELON-APPLE",
+        "precio": 1500,
+        "thumbnail": "./imagenes/Eliquids/Ice Monster/ice monster 4.jpg",
+        "stock": 32,
+        "code": 1023,
+        "description": "Sandías y frutillas... Pero en un invierno en tu boca"
+    },
+    {
+        "id": 24,
+        "title": "ICE MONSTER",
+        "model": "BANANA ICE",
+        "precio": 1500,
+        "thumbnail": "./imagenes/Eliquids/Ice Monster/ice monster 5.webp",
+        "stock": 40,
+        "code": 1024,
+        "description": "Sabor fiel a Banana, con un golpe frío al paladar"
+    },
+    {
+        "id": 25,
+        "title": "ICE MONSTER",
+        "model": "ACID ICE",
+        "precio": 1500,
+        "thumbnail": "./imagenes/Eliquids/Ice Monster/ice monster 6.jpg",
+        "stock": 10,
+        "code": 1025,
+        "description": "Frutos rojos, frutillas y limón con un final fresco"
+    },
+    {
+        "id": 26,
+        "title": "VAPETASIA",
+        "model": "KILLER KUSTARD",
+        "precio": 1400,
+        "thumbnail": "./imagenes/Eliquids/Vapetasia/vapetasia.webp",
+        "stock": 11,
+        "code": 1026,
+        "description": "Sabor vainilla y crema"
+    },
+    {
+        "id": 28,
+        "title": "VAPETASIA",
+        "model": "ROYALTY TWO",
+        "precio": 1400,
+        "thumbnail": "./imagenes/Eliquids/Vapetasia/vapetasia 3.png",
+        "stock": 52,
+        "code": 1028,
+        "description": "Tabaco, crema, vainilla y nueces"
+    },
+    {
+        "id": 29,
+        "category": "Atomizador",
+        "title": "SMOK",
+        "model": "NORD4",
+        "description": 2000,
+        "price": "./images/atomizador1.png",
+        "thumbnail": 20,
+        "code": 1029
+    },
+    {
+        "id": 30,
+        "category": "Smok",
+        "title": "NORD 4",
+        "model": 5,
+        "description": "PRINCIPIANTES",
+        "price": "./img/equipoprueba.png",
+        "thumbnail": 15,
+        "stock": "kitdeiniciopimpam",
+        "code": 1030
+    },
+    {
+        "id": 31,
+        "category": "Smok",
+        "title": "NORD 4",
+        "model": 5,
+        "description": "PRINCIPIANTES",
+        "price": "./img/equipoprueba.png",
+        "thumbnail": 15,
+        "stock": "kitdeiniciopimpam",
+        "code": 1031
+    },
+    {
+        "id": 32,
+        "category": "Smok",
+        "title": "NORD 4",
+        "model": 5,
+        "description": "PRINCIPIANTES",
+        "price": "./img/equipoprueba.png",
+        "thumbnail": 15,
+        "stock": "kitdeiniciopimpam",
+        "code": 1032
+    },
+    {
+        "id": 33,
+        "category": "Smok",
+        "title": "NORD 4",
+        "model": 5,
+        "description": "PRINCIPIANTES",
+        "price": "./img/equipoprueba.png",
+        "thumbnail": 15,
+        "stock": "kitdeiniciopimpam",
+        "code": 1033
+    },
+    {
+        "id": 34,
+        "category": "Smok",
+        "title": "NORD 4",
+        "model": 5,
+        "description": "PRINCIPIANTES",
+        "price": "./img/equipoprueba.png",
+        "thumbnail": 15,
+        "stock": "kitdeiniciopimpam",
+        "code": 1034
+    }
+]
