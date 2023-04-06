@@ -1,4 +1,10 @@
-import crypto from 'crypto'
+
+
+const app = require('./server/app')
+
+return app;
+
+/* import crypto from 'crypto'
 
 class UserManager {
     #BD
@@ -37,4 +43,4 @@ manager.insertUser({
     password: 'getthefuckout'
 })
 console.log(manager.getUsers())
-manager.validateUser('PipeMahia', 'getthefuckout')
+manager.validateUser('PipeMahia', 'getthefuckout') */

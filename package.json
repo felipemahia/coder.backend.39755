@@ -2,7 +2,6 @@
   "name": "backend-felipemahia",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +15,10 @@
     "url": "https://github.com/felipemahia/coder.backend.39755/issues"
   },
   "homepage": "https://github.com/felipemahia/coder.backend.39755#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "keywords": [],
   "description": ""
 }

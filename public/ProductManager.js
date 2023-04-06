@@ -1,4 +1,4 @@
-import fs from 'fs'
+const fs = require('fs').promises;
 
 class ProductManager {
     #products;
@@ -13,7 +13,7 @@ class ProductManager {
     }
 
     //cargo productoss
-    loadProducts() {
+    async loadProducts() {
         try {
             const data = fs.readFileSync(this.#path, 'utf-8');
             this.#products = JSON.parse(data);
@@ -25,7 +25,7 @@ class ProductManager {
     }
 
     //ahora los guardo xD
-    saveProducts() {
+    async saveProducts() {
         try {
             const data = JSON.stringify(this.#products, null);
             fs.writeFileSync(this.#path, data);
@@ -36,7 +36,7 @@ class ProductManager {
 
 
     //Agrego nuevo producto y establezco obligatoriedad en todos los campos
-    addProduct(category, title, model, description, price, thumbnail, stock) {
+    async addProduct(category, title, model, description, price, thumbnail, stock) {
 
         const product = {
             id: this.nextId++,
@@ -88,9 +88,9 @@ class ProductManager {
     
 }
 
-const manager = new ProductManager('products.json');
+module.exports = ProductManager; 
 
-
+/* 
 //metodo para agregar Productos
 manager.addProduct('Smok', 'NORD 4', 5, "PRINCIPIANTES", './img/equipoprueba.png', 15, 'kitdeiniciopimpam');
 
@@ -103,4 +103,4 @@ manager.deleteProduct(2);
 //método para buscar un Producto segun su ID
 manager.getProductById(4);
 
-console.log(manager.getProducts());
+console.log(manager.getProducts()); */
