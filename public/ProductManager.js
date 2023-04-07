@@ -1,4 +1,4 @@
-const fs = require('fs').promises;
+const fs = require('fs').promises; 
 
 class ProductManager {
     #products;
@@ -15,7 +15,7 @@ class ProductManager {
     //cargo productoss
     async loadProducts() {
         try {
-            const data = fs.readFileSync(this.#path, 'utf-8');
+            const data = await fs.readFile(this.#path, 'utf-8');
             this.#products = JSON.parse(data);
             this.nextId = this.#products.reduce((acc, p) => Math.max(acc, p.id), 0) + 1;
             this.nextCode = this.#products.reduce((acc, p) => Math.max(acc, p.code), 0) + 1;
@@ -27,8 +27,8 @@ class ProductManager {
     //ahora los guardo xD
     async saveProducts() {
         try {
-            const data = JSON.stringify(this.#products, null);
-            fs.writeFileSync(this.#path, data);
+            const data = JSON.stringify(this.#products, null, 4);
+            await fs.writeFile(this.#path, data);
         } catch (error) {
             console.error(`Error guardando el producto en ${this.#path}: ${error}`);
         }
@@ -51,7 +51,7 @@ class ProductManager {
         };
         this.#products.push(product);
 
-        this.saveProducts();
+        await this.saveProducts();
         return product;
     }
 
@@ -59,33 +59,32 @@ class ProductManager {
     getProducts() {
         return [...this.#products];
     }
+
     getProductById(id) {
-        const indexId = this.#products.find(p => p.id === id);
-        indexId ? console.log(indexId) : console.log(`No se encontró el producto con el id: ${id}`)
+        return this.#products.find(p => p.id === id);
     }
 
-    deleteProduct(id) {
+
+    async deleteProduct(id) {
         const index = this.#products.findIndex(p => p.id === id);
         if (index !== -1) {
             this.#products.splice(index, 1);
-            this.saveProducts();
+            await this.saveProducts();
             return true;
         }
         return false;
     }
 
-    updateProduct(id, data) {
+    async updateProduct(id, data) {
         const index = this.#products.findIndex(p => p.id === id);
         if (index !== -1) {
             const product = { ...this.#products[index], ...data, id };
             this.#products.splice(index, 1, product);
-            this.saveProducts();
+            await this.saveProducts();
             return product;
         }
         return null;
     }
-
-    
 }
 
 module.exports = ProductManager; 
