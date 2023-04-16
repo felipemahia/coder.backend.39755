@@ -1,18 +1,17 @@
-const fs = require('fs').promises; 
+const fs = require('fs').promises;
 
 class ProductManager {
     #products;
-    #path
+    #path;
 
     constructor(path) {
         this.#path = path;
         this.#products = [];
         this.nextId = 1;
-        this.nextCode = '1001';
+        this.nextCode = '20231';
         this.loadProducts();
     }
 
-    //cargo productoss
     async loadProducts() {
         try {
             const data = await fs.readFile(this.#path, 'utf-8');
@@ -24,7 +23,6 @@ class ProductManager {
         }
     }
 
-    //ahora los guardo xD
     async saveProducts() {
         try {
             const data = JSON.stringify(this.#products, null, 4);
@@ -34,20 +32,18 @@ class ProductManager {
         }
     }
 
-
-    //Agrego nuevo producto y establezco obligatoriedad en todos los campos
-    async addProduct(category, title, model, description, price, thumbnail, stock) {
+    async addProduct(title, category, description, size, price, thumbnail, stock) {
 
         const product = {
             id: this.nextId++,
-            category,
             title,
-            model,
+            category,
             description,
+            size,
             price,
             thumbnail,
-            stock,
             code: this.nextCode++,
+            stock,
         };
         this.#products.push(product);
 
@@ -55,24 +51,12 @@ class ProductManager {
         return product;
     }
 
-
     getProducts() {
         return [...this.#products];
     }
 
     getProductById(id) {
         return this.#products.find(p => p.id === id);
-    }
-
-
-    async deleteProduct(id) {
-        const index = this.#products.findIndex(p => p.id === id);
-        if (index !== -1) {
-            this.#products.splice(index, 1);
-            await this.saveProducts();
-            return true;
-        }
-        return false;
     }
 
     async updateProduct(id, data) {
@@ -85,21 +69,16 @@ class ProductManager {
         }
         return null;
     }
+
+    async deleteProduct(id) {
+        const index = this.#products.findIndex(p => p.id === id);
+        if (index !== -1) {
+            this.#products.splice(index, 1);
+            await this.saveProducts();
+            return true;
+        }
+        return false;
+    }
 }
 
-module.exports = ProductManager; 
-
-/* 
-//metodo para agregar Productos
-manager.addProduct('Smok', 'NORD 4', 5, "PRINCIPIANTES", './img/equipoprueba.png', 15, 'kitdeiniciopimpam');
-
-//metodo para modificar Productos segun su ID
-manager.updateProduct(1, { title: 'SMOK CAMBIADO' });
-
-//método de borrado de un Producto segun su ID
-manager.deleteProduct(2);
-
-//método para buscar un Producto segun su ID
-manager.getProductById(4);
-
-console.log(manager.getProducts()); */
+module.exports = ProductManager;

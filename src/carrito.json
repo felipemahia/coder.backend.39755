@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "cantidad": 1,
+        "producto": {
+            "id": 1,
+            "title": "Wilson Combinada Hombre/Niño",
+            "category": "zapatillas",
+            "description": "Zapatillas de tenis en Negro y Celeste",
+            "size": "41",
+            "price": 29300,
+            "thumbnail": "/img/zapa-wilson_2.png",
+            "code": 20231,
+            "stock": 15
+        }
+    },
+    {
+        "id": 2,
+        "cantidad": 1,
+        "producto": {
+            "id": 2,
+            "title": "Wilson Combinada Niños/as",
+            "category": "zapatillas",
+            "description": "Zapatillas de tenis Blancas",
+            "size": "40",
+            "price": 21500,
+            "thumbnail": "/img/zapa-wilson_4.png",
+            "code": 20233,
+            "stock": 56
+        }
+    },
+    {
+        "id": 3,
+        "cantidad": 1,
+        "producto": {
+            "id": 32,
+            "title": "Raqueta Prince",
+            "category": "Raquetas",
+            "size": "M 3/8",
+            "code": "533653",
+            "description": "Raqueta Prince M 3/8",
+            "price": 150000,
+            "stock": "10",
+            "thumbnail": "/img/98f25b2a85b056f9d2dc235a0d7e32ff"
+        }
+    },
+    {
+        "id": 4,
+        "cantidad": 1,
+        "producto": {
+            "id": 3,
+            "title": "Wilson Combinada Niños/as",
+            "category": "zapatillas",
+            "description": "Zapatillas de tenis Blancas",
+            "size": "40",
+            "price": 30595,
+            "thumbnail": "/img/zapa-wilson_4.png",
+            "code": 20233,
+            "stock": 56
+        }
+    }
+]

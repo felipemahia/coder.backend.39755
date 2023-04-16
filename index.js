@@ -1,3 +1,3 @@
-const app = require('./src/server/app.VIEJO')
+const app = require('./src/server/app.js')
 
 return app;
