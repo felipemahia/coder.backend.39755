@@ -20,7 +20,9 @@
                 <td>
                     <form action="/carts/{{ id }}" method="POST">
                         <input type="hidden" name="id" value="{{ id }}">
-                        <button type="submit">Ver</button>
+                        <button type="submit">ver</button>
+                        <button type="submit" class="btn btn-danger"
+                            action="/productsdeletebyid/{{id}}">Eliminar</button>
                     </form>
                 </td>
             </tr>

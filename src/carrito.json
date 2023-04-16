@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "cantidad": 1,
+        "cantidad": 19,
         "producto": {
             "id": 1,
-        "title": "SMOK CAMBIADO",
-        "model": "NORD4",
-        "price": 1100,
-        "category": "PRINCIPIANTES",
-        "thumbnail": "/img/2 Avanzados/Kit Aegis Max/1.jpg",
-        "stock": 5,
-        "code": 1001,
-        "description": "Estilo POD, lo más sencillo pero eficiente"
+            "title": "SMOK CAMBIADO",
+            "model": "NORD4",
+            "price": 1100,
+            "category": "PRINCIPIANTES",
+            "thumbnail": "/img/2 Avanzados/Kit Aegis Max/1.jpg",
+            "stock": 5,
+            "code": 1001,
+            "description": "Estilo POD, lo más sencillo pero eficiente"
         }
     },
     {
@@ -40,6 +40,51 @@
             "stock": 40,
             "code": 1020,
             "description": "Sabrosos frutos rojos congelados"
+        }
+    },
+    {
+        "id": 4,
+        "cantidad": 2,
+        "producto": {
+            "id": 4,
+            "title": "VAPORESSO",
+            "model": "SKYSOLO",
+            "price": 2000,
+            "category": "PRINCIPIANTES",
+            "thumbnail": "/img/1 Principiantes/Sky Solo/1.jpg",
+            "stock": 2,
+            "code": 1004,
+            "description": "Cabe en el bolsillo pero el límite es el cielo."
+        }
+    },
+    {
+        "id": 5,
+        "cantidad": 1,
+        "producto": {
+            "id": 10,
+            "title": "VAPORESSO",
+            "model": "GENS",
+            "price": 2800,
+            "category": "AVANZADOS",
+            "thumbnail": "/img/2 Avanzados/Vaporesso Gen S/1.jpg",
+            "stock": 3,
+            "code": 1010,
+            "description": "El mejor chip del mercado y la mejor estética"
+        }
+    },
+    {
+        "id": 6,
+        "cantidad": 3,
+        "producto": {
+            "id": 3,
+            "title": "SMOK",
+            "model": "STICKPRINCE",
+            "price": 2000,
+            "category": "PRINCIPIANTES",
+            "thumbnail": "/img/1 Principiantes/Smok Stick Prince/1.jpg",
+            "stock": 5,
+            "code": 1003,
+            "description": "Kit de inicio... a lo grande"
         }
     }
 ]

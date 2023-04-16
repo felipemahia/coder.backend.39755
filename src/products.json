@@ -5,7 +5,7 @@
         "model": "NORD4",
         "price": 1100,
         "category": "PRINCIPIANTES",
-        "thumbnail": "/img/2 Avanzados/Kit Aegis Max/1.jpg",
+        "thumbnail": "img/2 Avanzados/Kit Aegis Max/1.jpg",
         "stock": 5,
         "code": 1001,
         "description": "Estilo POD, lo más sencillo pero eficiente"
@@ -279,20 +279,21 @@
         "category": "Atomizador",
         "title": "SMOK",
         "model": "NORD4",
-        "description": 2000,
-        "price": "./images/atomizador1.png",
-        "thumbnail": 20,
+        "description": "Sencillo pero hermoso",
+        "price": 2000,
+        "thumbnail": "./images/atomizador1.png",
+        "stock": 20,
         "code": 1029
     },
     {
         "id": 30,
         "category": "Smok",
         "title": "NORD 4",
-        "model": 5,
-        "description": "PRINCIPIANTES",
-        "price": "./img/equipoprueba.png",
-        "thumbnail": 15,
-        "stock": "kitdeiniciopimpam",
+        "model": "PRINCIPIANTES",
+        "thumbnail": "./img/prueba.png",
+        "stock": 15,
+        "price": 1800,
+        "description": "kitdeiniciopimpam",
         "code": 1030
     },
     {
@@ -301,8 +302,8 @@
         "title": "NORD 4",
         "model": 5,
         "description": "PRINCIPIANTES",
-        "price": "./img/equipoprueba.png",
-        "thumbnail": 15,
+        "thumbnail": "/img/1 Principiantes/Joyctech exceed grip/1.jpg",
+        "price": 1400,
         "stock": "kitdeiniciopimpam",
         "code": 1031
     },
@@ -314,7 +315,7 @@
         "description": "PRINCIPIANTES",
         "price": "./img/equipoprueba.png",
         "thumbnail": 15,
-        "stock": "kitdeiniciopimpam",
+        "al": "kitdeiniciopimpam",
         "code": 1032
     },
     {
