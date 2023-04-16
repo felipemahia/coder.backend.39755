@@ -1,0 +1,16 @@
+<div class="container">
+<section class="cart">
+    <div id="cart-container" class="container cart">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{productoEnCarrito.producto.thumbnail}}" alt="Imagen del producto">
+            <div class="card-body">
+                <h4 class="card-title">{{productoEnCarrito.producto.title}}</h4>
+                <p class="card-text">Cantidad: {{productoEnCarrito.cantidad}}</p>
+                <h5 class="card-text">Precio unitario: $ {{productoEnCarrito.producto.price}}.-</h5>
+                <h5 class="card-text">Precio total: $ {{totalPrice}}.-</h5>
+
+            </div>
+        </div>
+    </div>
+</section>
+</div>

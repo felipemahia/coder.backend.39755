@@ -1,10 +1,24 @@
 const express = require('express');
+const app = express();
+app.use(express.urlencoded({ extended: true }))
+app.use(express.static('public'))
+app.use(express.json());
 const path = require('path');
+const storage = multer.diskStorage({
+    destination: function(req, file, cb) {
+        cb(null, 'public/')
+    },
+    filename: function(req, file, cb) {
+        cb(null, file.originalname)
+    }
+})
+const uploader = multer({ storage })
+
 
 const ProductManager = require('../public/ProductManager');
 const manager = new ProductManager('./public/products.json');
 
-const app = express();
+app.use(express.static('public'))
 app.use(express.json());
 const port = 8080;
 
