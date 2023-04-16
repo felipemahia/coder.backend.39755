@@ -32,14 +32,14 @@ class ProductManager {
         }
     }
 
-    async addProduct(title, category, description, size, price, thumbnail, stock) {
+    async addProduct(title, model, category, description, price, thumbnail, stock) {
 
         const product = {
             id: this.nextId++,
             title,
+            model,
             category,
             description,
-            size,
             price,
             thumbnail,
             code: this.nextCode++,

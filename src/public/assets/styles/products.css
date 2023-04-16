@@ -28,7 +28,6 @@ button{
 }
 .product_container h1{
     font-size: 3rem;
-    color: var(--first);
 }
 .product_container{
     border: 1px solid var(--dark);
@@ -52,9 +51,6 @@ button{
 }
 .description_product a{
     margin-top: 1rem;
-}
-.price_product{
-    color: var(--gold);
 }
 
 .buttons_pay{

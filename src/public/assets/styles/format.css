@@ -1,31 +1,10 @@
 /* Variables */
-:root {
-    /* Colores */
-    --first:  #90A755; 
-    --second: #f5f5f5;
-    --third: #3d4b19;
-    --fourth: #7d895d;
-    --gold: #C29436;
-    --light: #eee;
-    --dark: #333;
-    --sweetdark: #e3e3e3;
-    --brick: #c93c20 ;
-    /* Tamaños */
-    --small: 200px;
-    --medium: 400px;
-    --large: 600px;
-}
 
-
-/* Reglas de Utilidad */
 * {    
     font-family: var(--fontR);
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
-/* Reinicios de Estilos */
-/* Margenes */
 body,
 h1,
 h2,
@@ -59,11 +38,6 @@ p{
     padding: 0;
 }
 
-/* Bordes */
-iframe {
-    border: 0;
-}
-
 /* Estilos */
 :is(header,
     nav,
@@ -75,6 +49,3 @@ iframe {
 :is(ul) li {    
     list-style: none;
 }
-
-
-/* 2023 - Autor: Alejandro Daniel Di Stefano */

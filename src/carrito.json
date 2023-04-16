@@ -4,59 +4,42 @@
         "cantidad": 1,
         "producto": {
             "id": 1,
-            "title": "Wilson Combinada Hombre/Niño",
-            "category": "zapatillas",
-            "description": "Zapatillas de tenis en Negro y Celeste",
-            "size": "41",
-            "price": 29300,
-            "thumbnail": "/img/zapa-wilson_2.png",
-            "code": 20231,
-            "stock": 15
+        "title": "SMOK CAMBIADO",
+        "model": "NORD4",
+        "price": 1100,
+        "category": "PRINCIPIANTES",
+        "thumbnail": "/img/2 Avanzados/Kit Aegis Max/1.jpg",
+        "stock": 5,
+        "code": 1001,
+        "description": "Estilo POD, lo más sencillo pero eficiente"
         }
     },
     {
         "id": 2,
-        "cantidad": 1,
+        "cantidad": 4,
         "producto": {
-            "id": 2,
-            "title": "Wilson Combinada Niños/as",
-            "category": "zapatillas",
-            "description": "Zapatillas de tenis Blancas",
-            "size": "40",
-            "price": 21500,
-            "thumbnail": "/img/zapa-wilson_4.png",
-            "code": 20233,
-            "stock": 56
+            "id": 19,
+            "title": "KING CREST",
+            "model": "PLANET POP",
+            "price": 1200,
+            "thumbnail": "/img/Eliquids/King Crest/planet pops blue.jpg",
+            "stock": 40,
+            "code": 1019,
+            "description": "Sabor a caramelo de frutos rojos y arándanos"
         }
     },
     {
         "id": 3,
-        "cantidad": 1,
+        "cantidad": 2,
         "producto": {
-            "id": 32,
-            "title": "Raqueta Prince",
-            "category": "Raquetas",
-            "size": "M 3/8",
-            "code": "533653",
-            "description": "Raqueta Prince M 3/8",
-            "price": 150000,
-            "stock": "10",
-            "thumbnail": "/img/98f25b2a85b056f9d2dc235a0d7e32ff"
-        }
-    },
-    {
-        "id": 4,
-        "cantidad": 1,
-        "producto": {
-            "id": 3,
-            "title": "Wilson Combinada Niños/as",
-            "category": "zapatillas",
-            "description": "Zapatillas de tenis Blancas",
-            "size": "40",
-            "price": 30595,
-            "thumbnail": "/img/zapa-wilson_4.png",
-            "code": 20233,
-            "stock": 56
+            "id": 20,
+            "title": "ICE MONSTER",
+            "model": "MIXED BERRY ICE",
+            "price": 1500,
+            "thumbnail": "/img/Eliquids/Ice Monster/ice monster 1.png",
+            "stock": 40,
+            "code": 1020,
+            "description": "Sabrosos frutos rojos congelados"
         }
     }
 ]
